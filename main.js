@@ -28,8 +28,8 @@ async function main(connection, programAddress) {
                 const timestamp = new Date(now3.getTime() + 60 * 60 * 1000).toISOString();
                 console.log(timestamp);
                 console.log("Signature for 'Create':", signature);
-                console.log("this is logs:  "+logs);
-                // fetchRaydiumAccounts(signature, connection);
+                // console.log("this is logs:  "+logs);
+                fetchRaydiumAccounts(signature, connection);
                 return
             }
 
